@@ -1,0 +1,147 @@
+Q3 2025 APAC Trade Reconciliation Audit Report
+
+CONFIDENTIAL — Internal Audit Use Only
+
+Report Reference: IA-2025-APAC-047
+Date: October 15, 2025
+Lead Auditor: Li Wei
+Reviewed by: Sarah Chen, APAC Head of Internal Audit
+
+1. EXECUTIVE SUMMARY
+
+This report presents the findings from the Q3 2025 audit of trade reconciliation processes across APAC operations. The audit covered the period July 1 to September 30, 2025, focusing on Hong Kong, Singapore, and Tokyo operations.
+
+Overall assessment: UNSATISFACTORY — Immediate management action required.
+
+The audit identified 3 critical findings, 4 significant findings, and 2 minor findings. The most severe issues relate to Hong Kong's trade reconciliation controls and AML screening parameters.
+
+2. SCOPE AND METHODOLOGY
+
+The audit team examined 2,500 cross-border transactions across the three offices, reviewed system access logs for the Trade Reconciliation System (TRS) and FX Trading Platform v3.8, interviewed 15 staff members, and tested automated reconciliation controls.
+
+Sample testing of 50 cross-border transactions showed a 23% error rate — well above the acceptable threshold of 2%.
+
+3. CRITICAL FINDINGS
+
+3.1 Finding HK-001: Insufficient Automated Reconciliation Controls
+Severity: Critical
+Owner: Li Wei
+Deadline: March 31, 2026
+Risk: Operational, Financial
+
+Description: The Trade Reconciliation System (TRS) has not been updated since 2023 and does not support the latest cross-border transaction formats required by HKMA. During Q3 2025, 847 unreconciled transactions were identified in August 2025 alone, representing HKD 234 million in unmatched trades.
+
+Evidence: Transaction logs from August 2025 showing 847 unreconciled items; system version records confirming TRS last updated December 2023; HKMA circular GS-2024/03 requiring updated formats by Q1 2025.
+
+Root Cause: Budget constraints delayed the planned TRS upgrade from Q4 2024. No interim manual controls were implemented during the delay.
+
+Recommendation: Initiate emergency TRS upgrade project with vendor engagement by November 2025. Implement manual reconciliation procedures as interim control for transactions exceeding HKD 100,000.
+
+3.2 Finding HK-002: Escalation Failures for Reconciliation Breaks
+Severity: Critical
+Owner: Li Wei
+Deadline: March 31, 2026
+
+Description: There were 12 instances in the past 6 months where reconciliation breaks exceeding HKD 500,000 were not escalated within the required 24-hour window. The longest delay was 5 business days. This violates both internal policy (Operations Manual Section 7.3) and HKMA Guideline OR-1.
+
+Evidence: Incident management system records; email trails showing delayed notifications; comparison against Operations Manual Section 7.3 escalation requirements.
+
+3.3 Finding HK-003: Outdated AML Screening Parameters
+Severity: Critical
+Owner: Li Wei
+Deadline: March 31, 2026
+
+Description: The AML Screening Engine v4.1 uses parameters last calibrated in Q2 2024. The updated FATF screening rules from October 2024 have not been implemented. This affects transaction monitoring thresholds for cross-border wire transfers above USD 10,000. A gap analysis identified 47 new screening scenarios not covered by current parameters.
+
+Evidence: AML Engine configuration dated June 2024; FATF update bulletin October 2024; gap analysis document prepared by Compliance team.
+
+4. SIGNIFICANT FINDINGS
+
+4.1 Finding HK-004: Technology Risk Assessment Framework Gaps
+Severity: Significant
+Owner: Regional Technology Risk Team (Dr. Akiko Yamamoto)
+Deadline: June 30, 2026
+
+Description: The current technology risk assessment framework does not adequately cover cloud services and third-party API dependencies. With 14 cloud-based services now in production, this represents a material gap. The framework needs to include data residency, API security, vendor lock-in, and service availability SLAs.
+
+4.2 Finding HK-005: Data Classification Incomplete
+Severity: Significant
+Deadline: June 30, 2026
+
+Description: 35% of data assets in the Hong Kong Document Management System (DMS) remain unclassified per the Data Governance Policy requirements.
+
+4.3 Finding SG-001: Technology Controls — API Security Testing
+Severity: Significant
+Owner: Singapore Technology Team (James Tan)
+Deadline: June 30, 2026
+
+Description: Penetration testing of the Singapore trading platform APIs revealed 3 medium-severity vulnerabilities related to authentication token handling.
+
+4.4 Finding SG-002: Cross-Border Data Transfer Gaps
+Severity: Significant
+Owner: Singapore Compliance (James Tan)
+Deadline: June 30, 2026
+
+Description: Data transfer agreements between Singapore and Hong Kong operations do not fully comply with updated MAS Notice 655 requirements.
+
+5. MINOR FINDINGS
+
+5.1 Finding TK-001: Documentation Gaps
+Severity: Minor — Tokyo
+Deadline: September 30, 2026
+
+5.2 Finding SY-001: Manual Process Dependencies
+Severity: Minor — Sydney
+Deadline: September 30, 2026
+
+6. REMEDIATION BUDGET
+
+Total remediation budget: HKD 2.5 million
+Technology upgrades: HKD 1.5 million
+  - TRS system upgrade: HKD 1.2 million
+  - AML engine parameter recalibration: HKD 300,000
+Process improvements: HKD 1.0 million
+  - Staff training and process documentation: HKD 300,000
+  - Workflow redesign: HKD 200,000
+  - Singapore and regional items: HKD 500,000
+
+Of the HKD 2.5M total, approximately HKD 1.8 million is allocated to Hong Kong: HKD 1.2M for TRS, HKD 300K for AML, HKD 300K for training. The remaining HKD 700,000 covers Singapore and regional items.
+
+7. REMEDIATION STATUS
+
+Completed:
+- AML parameter update for Singapore (December 2024)
+- Initial technology risk assessment framework review (January 2025)
+
+In Progress:
+- Trade Reconciliation System upgrade for Hong Kong (vendor engaged October 2025)
+
+Pending:
+- Regional Compliance Dashboard development
+- HK AML screening engine update
+- Cross-border data transfer remediation for Singapore
+
+8. KEY PERSONNEL
+
+Li Wei — Lead Auditor, HK findings remediation, reporting to APAC Head of Internal Audit
+Sarah Chen — APAC Head of Internal Audit, overall oversight
+James Tan — Singapore Compliance Officer, SG remediation
+Dr. Akiko Yamamoto — Regional Technology Risk Lead, system upgrades
+Pierre Durand — Global Head of Audit, committee reporting
+
+9. RISKS TO TIMELY REMEDIATION
+
+Top 3 risks:
+1. Vendor delays: The TRS upgrade vendor estimates a 4-month development cycle that leaves no buffer before the March 2026 deadline.
+2. Staff capacity: The same team handles both BAU audit work and remediation projects.
+3. Regulatory scope creep: The HKMA may add additional requirements based on their ongoing review.
+
+10. NEXT STEPS
+
+- Next audit committee meeting: April 15, 2026
+- Quarterly APAC risk reviews to be established starting Q2 2026
+- Monthly progress reports for critical findings to the Audit Committee
+- Quarterly progress reports for significant findings
+
+Report Distribution: APAC Audit Team, Global Head of Audit, APAC Management Committee
+Classification: CONFIDENTIAL — APAC_AUDIT, GLOBAL_AUDIT

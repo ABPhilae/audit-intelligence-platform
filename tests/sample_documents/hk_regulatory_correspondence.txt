@@ -1,0 +1,31 @@
+HONG KONG MONETARY AUTHORITY
+Correspondence Reference: HKMA/IA/2025-0892
+
+Date: September 12, 2025
+To: Sarah Chen, APAC Head of Internal Audit
+Re: Trade Reconciliation Deficiencies — Follow-Up
+
+Dear Ms. Chen,
+
+Further to our on-site examination conducted in August 2025, we write to communicate the following expectations regarding the identified trade reconciliation deficiencies at your Hong Kong operations.
+
+1. FORMAL REMEDIATION PLAN
+
+We request submission of a formal remediation plan addressing the trade reconciliation control deficiencies within 60 days of this correspondence. The plan must include specific milestones, resource allocation, and target completion dates.
+
+2. PROGRESS REPORTING
+
+Quarterly progress updates are required commencing January 2026, to be submitted to the Supervision Division by the 15th of each quarter-end month.
+
+3. DEADLINE COMPLIANCE
+
+We note the internal deadline of March 31, 2026 for critical finding remediation. Failure to meet this deadline may result in enhanced supervisory measures, including increased capital requirements and on-site monitoring.
+
+4. SPECIFIC AREAS OF CONCERN
+
+Our examination specifically identified gaps in cross-border transaction monitoring controls, particularly relating to the reconciliation of FX and equity settlement transactions processed through the SWIFT messaging gateway.
+
+We expect a formal response within 30 days.
+
+Yours sincerely,
+[HKMA Supervision Division]
