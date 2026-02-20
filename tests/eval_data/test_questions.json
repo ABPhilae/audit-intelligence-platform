@@ -1,0 +1,160 @@
+{
+    "description": "Comprehensive RAGAS evaluation for the Audit Intelligence Platform — 32 questions across 6 categories",
+    "questions": [
+        {
+            "question": "What are the critical findings in the Q3 APAC Trade Reconciliation Audit?",
+            "ground_truth": "The critical findings include insufficient automated reconciliation controls for cross-border trades in Hong Kong, with 847 unreconciled transactions identified in August 2025, and a failure to escalate reconciliation breaks exceeding HKD 500,000 within the required 24-hour window.",
+            "category": "factual"
+        },
+        {
+            "question": "Who is the lead auditor responsible for Hong Kong findings remediation?",
+            "ground_truth": "Li Wei is the lead auditor responsible for Hong Kong findings remediation, reporting to the APAC Head of Internal Audit.",
+            "category": "factual"
+        },
+        {
+            "question": "What is the deadline for remediating critical findings?",
+            "ground_truth": "Critical findings must be remediated by March 31, 2026. Significant findings have a deadline of June 30, 2026. Minor findings must be addressed by September 30, 2026.",
+            "category": "factual"
+        },
+        {
+            "question": "What AML screening parameters need updating?",
+            "ground_truth": "The AML Screening Engine v4.1 uses parameters last calibrated in Q2 2024. The updated FATF screening rules from October 2024 have not been implemented, affecting transaction monitoring thresholds for cross-border wire transfers above USD 10,000.",
+            "category": "factual"
+        },
+        {
+            "question": "What is the total remediation budget and how is it allocated?",
+            "ground_truth": "The total remediation budget is HKD 2.5 million, split between technology upgrades (HKD 1.5 million for the Trade Reconciliation System and AML Screening Engine) and process improvements (HKD 1.0 million for training, documentation, and workflow redesign).",
+            "category": "factual"
+        },
+        {
+            "question": "What technology systems are referenced across all documents?",
+            "ground_truth": "The systems referenced are: Trade Reconciliation System (TRS), AML Screening Engine v4.1, Regional Compliance Dashboard (in development), SWIFT messaging gateway, FX Trading Platform v3.8, and the Document Management System (DMS).",
+            "category": "multi_hop"
+        },
+        {
+            "question": "What regulatory changes are expected in APAC for 2026?",
+            "ground_truth": "Expected regulatory changes include enhanced cross-border transaction reporting requirements from HKMA effective Q2 2026, updated MAS data residency requirements, APAC-wide AML harmonisation initiative, and new JFSA requirements for algorithmic trading oversight.",
+            "category": "factual"
+        },
+        {
+            "question": "When is the next audit committee meeting?",
+            "ground_truth": "The next audit committee meeting is scheduled for April 15, 2026.",
+            "category": "factual"
+        },
+        {
+            "question": "What training programs are required for staff?",
+            "ground_truth": "Required training programs include AML refresher training mandatory by Q2 2026, new compliance monitoring tools training scheduled Q1 2026, cross-border regulation awareness workshops quarterly starting Q1 2026, and trade reconciliation system training for HK operations staff.",
+            "category": "factual"
+        },
+        {
+            "question": "What is the overall APAC risk rating and why did it change?",
+            "ground_truth": "The overall APAC risk rating is Elevated, up from Moderate in the previous assessment, primarily driven by increased regulatory scrutiny, trade reconciliation gaps in Hong Kong, and outdated AML screening parameters.",
+            "category": "factual"
+        },
+        {
+            "question": "Compare the risk levels between Hong Kong and Singapore.",
+            "ground_truth": "Hong Kong has a higher overall risk level with 3 critical and 2 significant findings, primarily in trade reconciliation and AML controls. Singapore has 2 significant findings focused on technology controls and data governance. Hong Kong requires immediate remediation by March 2026 while Singapore's items are due by June 2026.",
+            "category": "comparative"
+        },
+        {
+            "question": "Compare the audit findings for trade reconciliation versus AML controls.",
+            "ground_truth": "Trade reconciliation findings are more severe with 847 unreconciled transactions and a critical escalation failure, requiring system upgrades costing HKD 1.5M. AML control findings involve outdated screening parameters and are more procedural in nature, requiring parameter recalibration and FATF rule implementation rather than system replacement.",
+            "category": "comparative"
+        },
+        {
+            "question": "How do the remediation timelines differ between critical and significant findings?",
+            "ground_truth": "Critical findings have a March 31, 2026 deadline with monthly progress reporting to the Audit Committee. Significant findings have a June 30, 2026 deadline with quarterly progress reporting. Critical items receive priority budget allocation from the HKD 1.5M technology upgrade fund.",
+            "category": "comparative"
+        },
+        {
+            "question": "Compare what the strategy review presentation says about digital transformation with what the audit report found.",
+            "ground_truth": "The strategy review reports digital transformation is 60% complete with an accelerated timeline. However, the audit report found that key systems like TRS have not been updated since 2023, suggesting the transformation has not yet addressed critical operational systems. The strategy review increased compliance technology budget by 20%, which aligns with the audit's recommendation for system upgrades.",
+            "category": "comparative"
+        },
+        {
+            "question": "What remediation steps have been completed and what is still pending?",
+            "ground_truth": "Completed: AML parameter update for Singapore (December 2024) and initial technology risk assessment framework review (January 2025). In Progress: Trade Reconciliation System upgrade for Hong Kong. Pending: Regional Compliance Dashboard development, HK AML screening engine update, and cross-border data transfer remediation for Singapore.",
+            "category": "multi_hop"
+        },
+        {
+            "question": "Which findings require both technology upgrades AND process changes?",
+            "ground_truth": "The trade reconciliation finding requires both a TRS system upgrade (technology) and new escalation procedures for breaks above HKD 500,000 (process). The AML screening finding requires engine parameter updates (technology) and quarterly calibration review procedures (process). Both findings span the two budget categories.",
+            "category": "multi_hop"
+        },
+        {
+            "question": "What evidence is cited in the audit report to support the critical findings?",
+            "ground_truth": "Evidence includes: 847 unreconciled transactions from August 2025 transaction logs, 12 instances of escalation breaches in the past 6 months from the incident management system, comparison of current AML parameters against October 2024 FATF guidelines, and sample testing of 50 cross-border transactions showing 23% error rate.",
+            "category": "factual"
+        },
+        {
+            "question": "What are the key decisions from the strategy review?",
+            "ground_truth": "Key decisions include accelerating digital transformation timeline by 6 months, increasing compliance technology budget by 20%, establishing quarterly APAC risk reviews, prioritizing HK trade reconciliation remediation, and launching a regional compliance monitoring dashboard project.",
+            "category": "factual"
+        },
+        {
+            "question": "How does the compliance policy address cross-border transactions?",
+            "ground_truth": "AML Compliance Policy v3.2 requires enhanced due diligence for cross-border wire transfers above USD 10,000, mandatory screening against consolidated sanctions lists updated weekly, 24-hour escalation window for flagged transactions, and quarterly reporting to the regional compliance officer.",
+            "category": "factual"
+        },
+        {
+            "question": "What are the three severity levels used in the finding tracker and their response timeframes?",
+            "ground_truth": "The tracker uses three severity levels: Critical (immediate action required, remediation within 90 days, monthly reporting), Significant (action within 180 days, quarterly reporting), and Minor (action within 270 days, semi-annual reporting).",
+            "category": "structural"
+        },
+        {
+            "question": "How many sheets does the finding tracker have and what does each contain?",
+            "ground_truth": "The finding tracker has 3 sheets: Summary (overall statistics and status dashboard), Regional Findings (detailed findings by region with severity, owner, deadline, and status), and Remediation Timeline (Gantt-style timeline with milestones and dependencies).",
+            "category": "structural"
+        },
+        {
+            "question": "What does the HK regulatory correspondence say about the HKMA's expectations?",
+            "ground_truth": "The HKMA correspondence dated September 2025 requests a formal remediation plan for trade reconciliation deficiencies within 60 days, expects quarterly progress updates, warns that failure to meet the March 2026 deadline may result in enhanced supervisory measures, and specifically references the cross-border transaction monitoring gaps identified in their on-site examination.",
+            "category": "factual"
+        },
+        {
+            "question": "Across all documents, who are the key people mentioned and what are their responsibilities?",
+            "ground_truth": "Key people include: Li Wei (Lead Auditor, HK findings remediation), Sarah Chen (APAC Head of Internal Audit, overall oversight), James Tan (Singapore Compliance Officer, SG remediation), Dr. Akiko Yamamoto (Regional Technology Risk Lead, system upgrades), and Pierre Durand (Global Head of Audit, committee reporting).",
+            "category": "multi_hop"
+        },
+        {
+            "question": "What is the relationship between the AML compliance policy and the audit findings?",
+            "ground_truth": "The AML Compliance Policy v3.2 sets the requirements that the audit tested against. The audit found that the AML Screening Engine does not meet the policy's requirement for screening against FATF-updated parameters, that the 24-hour escalation window mandated by the policy was breached 12 times, and that the quarterly reporting to the regional compliance officer has been inconsistent.",
+            "category": "multi_hop"
+        },
+        {
+            "question": "What budget is allocated specifically to Hong Kong remediation?",
+            "ground_truth": "Of the total HKD 2.5 million budget, approximately HKD 1.8 million is allocated to Hong Kong: HKD 1.2 million for the TRS system upgrade, HKD 300,000 for AML engine parameter recalibration, and HKD 300,000 for staff training and process documentation. The remaining HKD 700,000 covers Singapore and regional items.",
+            "category": "factual"
+        },
+        {
+            "question": "What are the top 3 risks that could prevent timely remediation?",
+            "ground_truth": "The top risks are: (1) vendor delays in delivering the upgraded TRS platform, with the current vendor estimating a 4-month development cycle that leaves no buffer before the March deadline; (2) staff capacity constraints as the same team handles both BAU audit work and remediation; (3) potential scope creep if the HKMA adds additional requirements based on their ongoing review.",
+            "category": "synthesis"
+        },
+        {
+            "question": "Summarize the main themes across all uploaded documents.",
+            "ground_truth": "The main themes are: regulatory compliance gaps in APAC driven by outdated systems and screening parameters, urgent need for technology modernisation especially in trade reconciliation and AML systems, increasing regulatory scrutiny from HKMA requiring formal remediation plans, strategic pivot toward digital transformation with dedicated budget, talent development needs across compliance and technology, and a shift from reactive to proactive risk management through quarterly reviews and a regional compliance dashboard.",
+            "category": "synthesis"
+        },
+        {
+            "question": "Based on the documents, what should be the top priority for the next 90 days?",
+            "ground_truth": "The top priority should be completing the Trade Reconciliation System upgrade in Hong Kong, as it addresses the most critical finding, is under HKMA scrutiny with a formal remediation plan expected within 60 days, and has the tightest deadline of March 31, 2026. This should run in parallel with AML screening parameter updates which are less complex and can be completed by the same deadline.",
+            "category": "synthesis"
+        },
+        {
+            "question": "How does the technology risk assessment framework handle cloud services?",
+            "ground_truth": "The current technology risk assessment framework does not adequately cover cloud services and third-party API dependencies — this was flagged as a significant finding. The remediation plan includes extending the framework to cover cloud-specific risks including data residency, API security, vendor lock-in, and service availability SLAs by June 30, 2026.",
+            "category": "factual"
+        },
+        {
+            "question": "What monitoring and reporting cadence is established for remediation tracking?",
+            "ground_truth": "Critical findings require monthly progress reports to the Audit Committee with formal status updates from finding owners. Significant findings require quarterly reporting. The Regional Compliance Dashboard, once operational, will provide real-time tracking. Additionally, the HKMA requires quarterly progress updates on trade reconciliation remediation specifically.",
+            "category": "multi_hop"
+        },
+        {
+            "question": "What does the finding tracker show about the distribution of findings by severity across regions?",
+            "ground_truth": "Hong Kong has the highest concentration with 3 critical and 2 significant findings. Singapore has 2 significant findings and no critical findings. Tokyo has 1 minor finding related to documentation gaps. Sydney has 1 minor finding related to operational process dependencies. Total: 3 critical, 4 significant, 2 minor across the APAC region.",
+            "category": "structural"
+        }
+    ]
+}
