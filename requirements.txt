@@ -1,0 +1,46 @@
+# === Phase 1 foundations ===
+fastapi==0.115.0
+uvicorn[standard]==0.30.0
+pydantic==2.10.0
+pydantic-settings==2.7.0
+python-dotenv==1.0.1
+python-multipart==0.0.9
+
+# === Phase 2 foundations ===
+openai==1.60.0
+streamlit==1.41.0
+
+# === LangChain ecosystem ===
+langchain==0.3.14
+langchain-core==0.3.29
+langchain-community==0.3.14
+langchain-openai==0.3.0
+langchain-qdrant==0.2.0
+langchain-text-splitters==0.3.4
+
+# === LlamaIndex (advanced features) ===
+llama-index==0.12.5
+llama-index-llms-openai==0.3.2
+llama-index-embeddings-openai==0.3.0
+
+# === Document Intelligence ===
+unstructured[all-docs]==0.16.11
+python-docx==1.1.2
+openpyxl==3.1.5
+python-pptx==1.0.2
+pdfplumber==0.11.4
+
+# === Advanced Retrieval ===
+cohere==5.13.0
+rank-bm25==0.2.2
+
+# === Evaluation and Observability ===
+ragas==0.2.8
+datasets==3.2.0
+langsmith==0.2.10
+
+# === Production ===
+redis==5.2.1
+tenacity==9.0.0
+httpx==0.27.0
+slowapi==0.1.9
