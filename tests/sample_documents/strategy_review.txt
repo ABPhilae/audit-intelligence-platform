@@ -1,0 +1,104 @@
+Annual Risk Committee Presentation — Q3 2025 Strategy Review
+
+Slide 1: Title
+Q3 2025 APAC Strategy Review
+Annual Risk Committee Meeting
+Presented by: Sarah Chen, APAC Head of Internal Audit
+October 2025
+
+Slide 2: Agenda
+1. Digital transformation progress
+2. Risk appetite adjustments
+3. Regulatory changes in APAC
+4. Audit findings overview
+5. Remediation roadmap and budget
+6. Technology modernisation
+7. Key decisions and next steps
+
+Slide 3: Digital Transformation Progress
+Current status: 60% complete
+Key milestones achieved:
+- Automated reconciliation platform: development phase
+- Real-time compliance monitoring: pilot in Singapore
+- AI-powered document analysis: Phase 2 deployed
+[Speaker Notes] Digital transformation timeline has been accelerated by 6 months based on board directive from Q2 meeting.
+
+Slide 4: Risk Appetite Adjustments
+Updated framework for 2026:
+- Credit risk: maintained at current levels
+- Operational risk: increased monitoring frequency from quarterly to monthly
+- Technology risk: new controls for cloud and API dependencies
+- Compliance risk: enhanced due diligence thresholds lowered
+[Speaker Notes] Key decision: Increase compliance technology budget by 20% for 2026.
+
+Slide 5: Regulatory Changes in APAC
+Upcoming changes affecting our operations:
+- HKMA enhanced cross-border transaction reporting (effective Q2 2026)
+- MAS updated data residency requirements
+- APAC-wide AML harmonisation initiative
+- JFSA new requirements for algorithmic trading oversight
+[Speaker Notes] Expected regulatory changes include enhanced cross-border transaction reporting requirements and updated data residency rules for financial institutions.
+
+Slide 6: Key Decisions
+1. Accelerate digital transformation timeline by 6 months
+2. Increase compliance technology budget by 20%
+3. Establish quarterly APAC risk reviews
+4. Prioritize HK trade reconciliation remediation
+5. Launch regional compliance monitoring dashboard project
+[Speaker Notes] These decisions were approved unanimously by the Risk Committee.
+
+Slide 7-20: [Additional slides covering detailed remediation roadmap, budget breakdown, regional risk profiles, talent strategy, vendor management, operational resilience, climate risk, stakeholder engagement, KPIs, and timeline]
+
+Key takeaway: The APAC region requires immediate action on trade reconciliation and AML controls, supported by a HKD 2.5M remediation budget and accelerated digital transformation.
+12e: Create tests/sample_documents/aml_policy.txt
+(Simulates a 30-page PDF compliance policy)
+AML Compliance Policy v3.2
+
+Document Reference: POL-AML-2025-v3.2
+Effective Date: January 1, 2025
+Next Review: January 1, 2026
+Classification: INTERNAL — GLOBAL_AUDIT
+
+1. PURPOSE
+
+This policy establishes the Anti-Money Laundering compliance framework for all operations. It applies to all employees, contractors, and third parties acting on behalf of the institution.
+
+AML Compliance Policy v3.2 is currently in effect alongside the APAC Data Privacy Framework.
+
+2. CROSS-BORDER TRANSACTION MONITORING
+
+Enhanced due diligence is required for all cross-border wire transfers above USD 10,000. This includes:
+- Mandatory screening against consolidated sanctions lists updated weekly
+- Verification of originator and beneficiary information
+- 24-hour escalation window for flagged transactions
+- Quarterly reporting to the regional compliance officer
+
+3. SCREENING REQUIREMENTS
+
+All transactions must be screened against:
+- UN Security Council Consolidated List
+- OFAC Specially Designated Nationals List
+- EU Consolidated Financial Sanctions List
+- Local regulatory watch lists (HKMA, MAS, JFSA)
+
+Screening parameters must be calibrated quarterly to reflect current FATF guidelines.
+
+4. ESCALATION PROCEDURES
+
+Flagged transactions must be escalated within 24 hours to the designated compliance officer. Failure to escalate within the required window constitutes a policy breach and must be reported to Internal Audit.
+
+For transactions exceeding USD 100,000, additional approval from the Regional Head of Compliance is required before processing.
+
+5. REPORTING CADENCE
+
+- Monthly: Transaction screening statistics to local compliance
+- Quarterly: Suspicious Activity Reports to regulators
+- Quarterly: Reports to regional compliance officer on cross-border activity
+- Annually: Full AML program review to Audit Committee
+
+6. TRAINING REQUIREMENTS
+
+All staff in client-facing and operations roles must complete:
+- AML refresher training: annually, mandatory completion by Q2 each year
+- Enhanced due diligence workshop: upon joining and every 2 years
+- Regulatory update briefings: as issued by Compliance

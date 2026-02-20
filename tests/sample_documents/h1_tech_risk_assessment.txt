@@ -1,0 +1,43 @@
+H1 2025 Technology Risk Assessment — APAC Region
+
+Document Reference: TRA-2025-H1-APAC
+Author: Dr. Akiko Yamamoto, Regional Technology Risk Lead
+Date: August 2025
+Classification: INTERNAL — APAC_AUDIT, GLOBAL_AUDIT
+
+Executive Summary
+
+The overall APAC technology risk rating is Elevated, up from Moderate in the H2 2024 assessment. This escalation is driven by three factors: outdated core systems (TRS, AML Engine), increasing cloud dependency without adequate risk controls, and the growing complexity of cross-border data flows.
+
+Technology Systems Inventory
+
+The following systems are in scope:
+
+Trade Reconciliation System (TRS) — version 5.2, last updated December 2023. Supports manual and semi-automated reconciliation for equity, fixed income, and FX trades. Current capacity: 50,000 transactions per day. Required capacity by Q2 2026: 75,000.
+
+AML Screening Engine v4.1 — deployed June 2023, parameters last calibrated Q2 2024. Screens all wire transfers against sanctions lists, PEP databases, and internal watchlists. Processes approximately 12,000 screening events per day.
+
+FX Trading Platform v3.8 — deployed March 2024. Handles spot and forward FX transactions for all APAC offices.
+
+SWIFT Messaging Gateway — standard messaging interface for cross-border payments.
+
+Regional Compliance Dashboard — IN DEVELOPMENT. Planned for Q2 2026. Will provide real-time monitoring of compliance metrics across all APAC offices.
+
+Document Management System (DMS) — stores all audit reports, policies, and correspondence.
+
+Risk Assessment
+
+Overall APAC Risk Rating: ELEVATED (up from Moderate)
+
+Primary drivers:
+- Insufficient trade reconciliation controls in Hong Kong
+- Outdated AML screening parameters
+- Technology risk assessment framework does not cover cloud services
+- Increasing regulatory scrutiny from HKMA
+
+Training Requirements
+
+AML refresher training: mandatory completion by Q2 2026 for all compliance staff
+New compliance monitoring tools training: scheduled Q1 2026
+Cross-border regulation awareness workshops: quarterly starting Q1 2026
+Trade reconciliation system training for HK operations staff: upon TRS upgrade completion
